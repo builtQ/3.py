@@ -7,7 +7,7 @@ for root,files,dirs in os.walk(root_path):
 	current_dir = root
 	path_list = current_dir.split("\\")
 	indent_level = len(path_list) - offset 
-	print("\t"*indent_level,"\\",path_list[-1])
+	print("\t"*indent_level,"\\",path_list[-1])#所存地方的所有文件
 	#print(files)
 	#print(dirs)
 	# for f in files:
