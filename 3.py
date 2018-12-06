@@ -39,6 +39,6 @@ with open("a.txt") as fp:
 		if not line:
 			break
 		line_count+=1
-		if  len(line.strip())==0:
+		if  len(line.strip())==0:#文本中的空行数
 			blank_count+=1
-print(line_count,"Lines(",blank_count,"blanks)")#a文本中的行数
+print(line_count,"Lines(",blank_count,"blanks)")#a文本中总的行数
